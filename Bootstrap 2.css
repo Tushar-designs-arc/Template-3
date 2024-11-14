@@ -1,0 +1,223 @@
+*{
+    font-family: "Source Sans 3";
+}
+.navbar-toggler-icon{
+    color: gray;
+    padding: 1.5px 0px;
+}
+.navbar-nav li a{
+    color: rgba(0, 0, 0, 0.87);
+    margin: 9px;
+    font-size: 1.1pc;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.navbar-nav li a:hover{
+    color: rgb(14, 162, 189);
+    padding-bottom: 2px;
+    font-size: 1.1pc;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(14, 162, 189);
+    transition: 0.5s;
+}
+.dropdown-menu li a{
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px;
+    padding-bottom: 2px;
+    font-size: 1.1pc;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.dropdown-menu li a:hover{
+    color: rgb(14, 162, 189);
+    margin: 0px;
+    font-size: 1.1pc;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(14, 162, 189);
+    transition: 0.5s;
+}
+.a1{
+    padding-top: 15px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.a2{
+    padding-top: 170px;
+}
+.a3{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.a4{
+    padding: 50px;
+}
+.a5{
+    padding-top: 70px;
+}
+.a6{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 35px 30px;
+    border: none;
+    border-radius: 30px;
+}
+.p1{
+    padding: 5px 25px;
+    color: white;
+    background-color: rgb(14, 162, 189);
+    border: none;
+    border-radius: 5px;
+    font-size: 1pc;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.p1:hover{
+    padding: 5px 25px;
+    color: white;
+    background-color: rgb(14, 162, 189);
+    border: none;
+    border-radius: 5px;
+    font-size: 1pc;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.p2{
+    padding: 8px 30px;
+    margin: 7px;
+    color: white;
+    background-color: rgb(14, 162, 189);
+    border: none;
+    border-radius: 5px;
+    font-size: 1pc;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.p2:hover{
+    padding: 8px 30px;
+    margin: 7px;
+    color: white;
+    background-color: rgb(14, 162, 189);
+    border: none;
+    border-radius: 5px;
+    font-size: 1pc;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.p3{
+    box-sizing: border-box;
+    transform: translateY(0px);
+    transition: 0.7s;
+}
+.p3:hover{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px 20px whitesmoke;
+    transform: translateY(-15px);
+    transition: 0.7s;
+}
+.p3:hover .d2{
+    color: rgb(14, 162, 189);
+    transition: 0.5s;
+}
+.p4{
+    font-size: 1.2pc;
+}
+.p4:hover{
+    color: rgb(14, 162, 189);
+    padding-bottom: 16px;
+    border-bottom: 3px solid rgb(14, 162, 189);
+}
+.p5{
+    margin-top: 0px;
+    font-size: 1.05pc;
+    font-weight: 500;
+    color: rgb(72, 86, 100);
+}
+.p6{
+    padding: 30px 50px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    width: 100%;
+    transition: 0.5s;
+}
+.p6:hover{
+    padding: 30px 50px;
+    filter: grayscale(0%);
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s;
+}
+.d1{
+    padding: 7px 0px;
+    margin: 7px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.d1:hover{
+    padding: 7px 0px;
+    margin: 7px;
+    color: rgb(14, 162, 189);
+    background-color: white;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.d2{
+    color: rgb(72, 86, 100);
+    padding-top: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.d3{
+    padding: 25px 20px 0px 0px;
+}
+.d4{
+    padding: 25px 20px 0px 20px;
+}
+.d5{
+    padding-top: 10px;
+}
+.g1{
+    float: right;
+    position: fixed;
+    z-index: 999;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgb(14, 162, 189);
+    color: white;
+    font-weight: 900;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+.g1:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+.img{
+    animation: hero 3s ease-in-out infinite alternate-reverse;
+}
+@keyframes hero{
+    0%{
+        transform: translateY(0px);
+        transition-delay: 0.5s;
+    }
+    50%{
+        transform: translateY(-20px);
+        transition-delay: 0.5s;
+    }
+    100%{
+        transform: translateY(0px);
+        transition-delay: 0.5s;
+    }
+}
